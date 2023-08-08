@@ -28,5 +28,3 @@ for index, todo_item in enumerate(todos):
 st.text_input(label='Test', placeholder='Add your ToDo item here...',
               on_change=add_todo, key='todo_ipbox')
 
-
-st.session_state
