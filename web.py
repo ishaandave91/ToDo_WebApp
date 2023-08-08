@@ -25,6 +25,6 @@ for index, todo_item in enumerate(todos):
         st.experimental_rerun()
 
 
-st.text_input(label='Test', placeholder='Add your ToDo item here...',
+st.text_input(label='', placeholder='Add your ToDo item here...',
               on_change=add_todo, key='todo_ipbox')
 
